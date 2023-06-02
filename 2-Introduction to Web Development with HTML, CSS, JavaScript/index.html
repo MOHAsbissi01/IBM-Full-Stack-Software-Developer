@@ -1,12 +1,11 @@
 <!-- Your comment goes here -->
 <!DOCTYPE html>
 <html lang="en"> 
-
 <html> 
     <!-- The head is a very important part of an HTML page,
          even though its contents are not displayed within
           the body of the page. -->
-    <head> 
+  <head> 
         <!-- the UTF-8 means -->
         <meta charset="UTF-8">
         <!-- the meta tag is used to provide metadata about the HTML document -->
@@ -14,19 +13,19 @@
         <meta name="description" content="this is my first 
         page contains all the things i'm learning about how 
         to lean HTML " >
-
+      
         <title>my first web page </title> 
         <!-- the title is displayed in the browser's title bar or tab -->
         <link rel="icon" href="html5.png" type="image/x-icon"> 
         <!-- the icon from CSS file is displayed in the browser's title bar or tab -->
         <link rel="stylesheet" href="main.css" type="text/css" >      
-    </head>
+  </head>
       <!---some usefull shortcuts here like :
         -shilft + alt + f : to format the code
         -ctrl + / : to comment the code
         -shift + alt + down arrow : to copy the line
          --->
-    <body>
+  <body>
          <h1> Wello World ! </h1>
          
          <hr>
@@ -34,37 +33,58 @@
          <h2> I'm ready to lean HTML </h2>
           <p> this is my first web page </p>
          <h3> My Daily Schedule </h3>
-          <p> 
-            Let me how you know :
-            <br> ... I lean about web dev
-            <br> &nbsp; ... I plan out my scheduele
-            <br> &nbsp;&nbsp;&nbsp;&nbsp;... I learn 
-            about programming from <abbr title="Mozilla Developer Network"> MDN </abbr>.          
-             </p>
-
+          <p>  Let me how you know :</p>
+          <!---the '<ol>' is for counting the list items--->
+            <ol> 
+              <!---the '<br>' is for adding a line break--->
+              <br> ... I lean about web dev
+              <!---the  &nbsp; is for adding a space between the list items--->
+              <br> &nbsp; ... I plan out my scheduele
+              <!---the '<li>' is for counting the list items--->
+              <li>... I learn about programming from 
+                 <abbr title="Mozilla Developer Network"> MDN </abbr>. </li>   
+              <li>... I plan out my scheduele 2 </li>
+            </ol>
          <hr>
        
          <h2> I'm also planning for a vacation  </h2>
           <em> I've been working for a long 
             period and <em> really need a getway</em></em>. </p>
+    
+         <h3> place I'd like to visit  </h3>
+         <!--the '<ul>' is for listing the items without counting them--->
+         <ul>
+            <li><p> I've heard  good things about the Caribbean. </p> </li>
+            <li><p> I've heard  good things about going here: </p>
+              
+            <address> 
+              Margaritaville Island Reserve
+              Riviera Cancün<br>
+              Bahia Petempich Puerto 
+              Morelos , Mexico<br>
+              Colonia Morelos,Puerto Morelos,México 77580
+            </address>
+            </li>
+        </ul>
 
-         <h4> place I'd like to visit  </h4>
-          <p> I've heard  good things about the Caribbean. </p>
-          <p> I've heard  good things about going here: </p>
-            
-          <address> 
-            Margaritaville Island Reserve Riviera
-            Cancün<br>
-            Bahia PetempichMexico<br>
-            Colonia Morelos,Puerto Morelos,México 77580
-          </address>
-
-
-          <h5> Place i want to Avoid  </h5>
-          <p>  Anywhere cold .<strong> No WAY !</strong> </p>
-
+          <h4> Place i want to Avoid  </h4>
+          <!--the  '<dl>' is for listing the items with description--->
+           <dl>
+              <dl>  North Pole</dl>
+              <!--the '<dd>' is for listing the items with description more details than '<dl>'--->
+              <dd>I hear this is <strong>cold</strong>!</dd>
+             
+              <dl>  South Pole</dl>
+              <!--the '<dd>' is for listing the items with description more details than '<dl>'--->
+              <dd>this is also cold  !</dd>
+              
+              <dl>Mountain Tops</dl>
+              <!--the '<dd>' is for listing the items with description more details than '<dl>'--->
+              <dd>these are also cold  !</dd>
+               
+           </dl>
          <hr>
          &lt;&lt;  &COPY; YOUR_NAME  &gt;&gt;
-    </body>
+  </body>
   
 </html>
