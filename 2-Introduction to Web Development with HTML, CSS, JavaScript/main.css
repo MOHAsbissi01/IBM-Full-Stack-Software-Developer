@@ -6,3 +6,15 @@ body{
     color: whitesmoke;
     color-scheme: dark;
 }
+
+a{
+    color: aliceblue ;
+}
+
+a:visited{
+    color: aliceblue;
+}
+
+a:hover , a:active{
+    color: #eee;
+}
