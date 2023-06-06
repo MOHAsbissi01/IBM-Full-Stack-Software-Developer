@@ -1,0 +1,25 @@
+#Repository Creation and Cloning:
+git init: Initializes a new Git repository in the current directory.
+git clone [repository URL]: Creates a local copy of a remote repository.
+
+#Tracking Changes:
+git add [file]: Adds a file or changes to the staging area.
+git commit -m "[message]": Commits the staged changes to the repository with a descriptive message.
+git status: Shows the status of the working directory and staged changes.
+git diff: Displays the differences between the working directory and the staging area.
+
+#Branching and Merging:
+git branch: Lists all branches in the repository.
+git branch [branch name]: Creates a new branch.
+git checkout [branch name]: Switches to the specified branch.
+git merge [branch name]: Merges the specified branch into the current branch.
+
+#Remote Repositories and Collaboration:
+git remote: Lists all remote repositories.
+git remote add [remote name] [repository URL]: Adds a new remote repository.
+git pull [remote name] [branch name]: Fetches and merges changes from a remote repository.
+git push [remote name] [branch name]: Pushes local commits to a remote repository.
+
+#Version Control History and Information:
+git log: Displays the commit history of the repository.
+git show [commit hash]: Shows detailed information about a specific commit.
