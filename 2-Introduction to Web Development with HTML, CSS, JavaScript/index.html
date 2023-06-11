@@ -39,6 +39,9 @@
                 <li>
                   <a href="#Vacation" > Plannig vacation </a>
                   </li>
+                <li>
+                  <a href="#Vacation" > contact me  </a>
+                  </li>
               </ul>
             </nav>
 
@@ -177,9 +180,114 @@
                 <dd>these are also cold  !</dd>
             </dl>
         </artical>
+
+        <hr>
+
+        <article id="contact ">
+          <h2>Contact me </h2>
+          <p>I'd really like to hear from you !</p>
+          <form action="https://httpbin.org/get" methiod="get">
+            <fieldset>
+              <legend> Personal Information </legend>
+            
+          <p>
+            <label for="firstname"> FirstName :</label> 
+            <input type="text" 
+            name="firstname" 
+            id="firstname" 
+            placeholder="PUT YOUR FIRSTNAME HERE "
+            autocomplete="on"  required 
+            autofocus> 
+          </p>
+          <p>
+            <label for="password"> Password :</label> 
+            <input type="password" 
+            name="password" 
+            id="password"  
+            placeholder="Your secret "
+            autocomplete="on"  required 
+            autofocus> 
+          </p>
+          <p>
+            <label for="phone"> phone :</label> 
+            <input type="tel" 
+            name="phone" 
+            id="phone" 
+            placeholder="99999999 "
+            pattern="[0-9]{2}[0-9]{3}[0-9]{3}"  required 
+            autofocus> 
+          </p>
+          <p>
+            <label for="number "> Your Favorit number :</label> 
+            <input type="number" 
+            name="number " 
+            id="number " 
+            min="1" max="100" step="1"  > 
+          </p>
+
+          <p> 
+            <label for="coffee" >Favorit Coffee: </label>
+            <select name="coffee" id="coffee" multiple size="5" >
+              <optgroup label="classic options" >
+                <option value="espresso">Espresso</option>
+                <option value="americano">Americano</option>
+              </optgroup>
+              <optgroup label=" New options">
+                <option value="cappuccino">Cappuccino</option>
+                <option value="latte">Latte</option>
+                <option value="other">Other</option>
+              </optgroup>  
+            </select>
+          </p>
+            </fieldset>
+
+            <br>
+            <fieldset>
+              <legend> What's your favorit Food ? </legend>
+              <p>
+                <label for="pizza"> pizza</label> 
+                <input type="radio" name="subject" id="pizza" value="pizza" > 
+              </p>
+              <p>
+                <label for="Sandwich"> Sandwich</label> 
+                <input type="radio" name="subject" id="Sandwich" value="Sandwich" > 
+              </p>
+              <p>
+                <label for="drinks"> drinks</label> 
+                <input type="radio" name="subject" id="drinks" value="drinks" > 
+              </p>
+
+              <p>
+                <label for="note"> note :</label> 
+                <textarea name="note" id="note" cols="30" rows="10" placeholder="PUT YOUR NOTE HERE " required></textarea>
+              </p>
+              </fieldset>
+      
+            <br >
+            <fieldset>
+              <legend> Do you have pets ? </legend>
+              <p>
+                <label for="yes"> Yes</label> 
+                <input type="checkbox" name="yes" id="yes" value="yes" >
+              </p>
+              <p>
+                <label for="no"> No</label> 
+                <input type="checkbox" name="no" id="no" value="no" >
+              </p>
+              <p>
+                <label for="no response"> No response</label> 
+                <input type="checkbox" name="no response" id="no response" value="no response" >
+              </p>
+            </fieldset>
+            <br>
+            <button type="submit"> Submit </button>
+            <button type="reset"> Reset </button>
+          </form>
+
+        </article>
     </main>
 
-         <hr>
+      <hr>
     <footer>
       <p> 
          &lt;&lt;  &COPY; <a href ="about.html"> Med_Sb</a>  &gt;&gt;
