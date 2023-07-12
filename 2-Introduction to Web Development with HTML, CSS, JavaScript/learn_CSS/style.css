@@ -1,0 +1,21 @@
+body{ 
+    font-size : 22px   ;
+}
+
+h1 , h2{
+    color : blue;
+}
+
+p{
+    color: purple;
+
+ }
+
+.Sb{
+    color : grey;
+} 
+
+
+#second{
+    font-style : italic ;
+}
