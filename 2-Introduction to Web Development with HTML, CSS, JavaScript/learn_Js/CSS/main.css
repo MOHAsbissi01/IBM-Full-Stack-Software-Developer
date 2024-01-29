@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 150%;
+}

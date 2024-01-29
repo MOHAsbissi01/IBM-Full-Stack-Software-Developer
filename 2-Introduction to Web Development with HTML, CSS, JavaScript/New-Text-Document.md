@@ -1,8 +1,13 @@
-#Front-end  # Back-end  #  Full-stack
+#Front-end 
+#Back-end  
+#Full-stack
+
 In this brief overview,we'll lean about: The basic communication between client and servers.
 How websites are built and displayed. Front-end development is about what happens on the
 client side. Back-end development is about what happens on the server. Full-stack development
 incudes both front-end and back-end development.
+
+  
 
 To create a website, web developers usually use Hypertext Markup Language (HTML),
 Cascading Style Sheets (CSS) and JavaScript.
