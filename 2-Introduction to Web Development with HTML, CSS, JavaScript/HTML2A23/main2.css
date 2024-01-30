@@ -45,8 +45,7 @@ table p {
     margin-top: 10px;
     color: #666;
 }
-
-/* Styling for the button */
+ 
 button {
     background-color: #4CAF50;
     color: white;
@@ -64,5 +63,24 @@ button:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ddd;
+    background-color: #000000;
+}
+
+iframe {
+    width: 800px;
+    height: 600px;
+    margin: 20px auto;  
+    display: block;  
+}
+
+footer {
+    background-image: url(' assets/img/LOGO.webp');   
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    padding: 20px;  
+    color: rgb(181, 22, 22);  
+}
+
+.spacing {
+    margin-bottom: 40px;  
 }

@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -61,4 +62,12 @@ input[type="submit"]:hover {
     form {
         width: 90%;
     }
+}
+
+footer {
+    background-image: url(' assets/img/LOGO.webp');   
+    background-size: cover;  
+    background-repeat: no-repeat;  
+    padding: 20px; 
+    color: white;  
 }
